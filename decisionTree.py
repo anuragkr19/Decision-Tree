@@ -76,7 +76,7 @@ def getListForCol(dataSet,col):
 #fetch training dataset from csv file
 def loadTrainingData():
     dataPoints = []
-    fileh = open(os.getcwd() + "//axk1923_hw2//code//dt//MushroomTrain.csv",'r')
+    fileh = open(os.getcwd() + "//code//dt//MushroomTrain.csv",'r')
     try:
         csv_reader = csv.reader(fileh,delimiter=',')
         for row in csv_reader:
@@ -96,7 +96,7 @@ def loadTrainingData():
 #fetch test dataset from csv file
 def loadTestData():
     dataPoints = []
-    fileh = open(os.getcwd() + "//axk1923_hw2//code//dt//MushroomTest.csv",'r')
+    fileh = open(os.getcwd() + "//code//dt//MushroomTest.csv",'r')
     try:
         csv_reader = csv.reader(fileh,delimiter=',')
         for row in csv_reader:
